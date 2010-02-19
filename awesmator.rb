@@ -26,8 +26,8 @@ module Awesmator
     end
   end
 
-  def lookup(awesm_api_key, stub, domain="awe.sm")
-	  parameters =
+  def awesm_lookup(awesm_api_key, stub, domain="awe.sm")
+    parameters =
       { :version => 1,
         :api_key => awesm_api_key,
         :domain => domain }
