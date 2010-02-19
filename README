@@ -1,0 +1,17 @@
+Awesmator
+Ruby module that provides access to the awe.sm API
+
+methods: awesmate, lookup
+
+awesmate: create an awe.sm short url
+
+lookup: lookup data for an awe.sm url
+
+developed & maintained by:
+
+Michael Orr github.com/imightbeinatree
+Corey Reece github.com/corey
+
+Cloudspace
+http://www.cloudspace.com
+http://github.com/cloudspace
