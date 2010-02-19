@@ -1,31 +1,28 @@
-Awesmator
+# Awesmator
+
 Ruby module that provides access to the awe.sm API
 
-methods
--------------------------------
-awesmate, lookup
+## Methods
+awesmate, awesm_lookup
 
 awesmate: create an awe.sm short url
 
-lookup: lookup data for an awe.sm url
+awesm_lookup: lookup data for an awe.sm url
 
-to use this module
--------------------------------
+## to use this module
 put the awesmator.rb file in your lib folder
 
 then include it in the model you want to make it available in
   class Post < ActiveRecord::Base
     include Awesmator
 
-creating a short url
--------------------------------
+## creating a short url
 call it in a controller 
   url = "http://www.cloudspace.com"
   @post = Post.first
   new_short_url = @post.awesmate(API_KEY, url)
 
-doing a lookup
--------------------------------
+## doing a lookup
 call it in a controller
   stub = 'c'
   @post = Post.first
